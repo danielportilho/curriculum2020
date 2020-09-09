@@ -3,13 +3,18 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
+import { ElementsModule } from './elements/elements.module';
+
 @NgModule({
   declarations: [
     AppComponent
   ],
+
   imports: [
-    BrowserModule
+    BrowserModule,
+    ElementsModule
   ],
+  
   providers: [],
   bootstrap: [AppComponent]
 })
