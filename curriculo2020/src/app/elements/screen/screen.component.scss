@@ -1,0 +1,30 @@
+@import '../../../assets/styles/variables.scss';
+
+.screen {
+    width: 100%;
+    height: 600px;
+    padding-top: 70px;
+    background-color: #ca51a1;;
+    flex: 1;
+    display: flex;
+
+    .screen-container {
+        @include mainContainer;
+        padding: 20px;
+
+        .screen-wrapper {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .screen-picture-profile {
+                width: 180px;
+                height: 180px;
+                border-radius: 50%;
+                background: #ffffff;
+                margin-bottom: 41px;
+            }
+        }
+    }
+}

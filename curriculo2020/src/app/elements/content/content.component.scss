@@ -1,0 +1,12 @@
+@import '../../../assets/styles/variables.scss';
+
+.content {
+    background-color: #1d1d1d;
+    flex: 1;
+    height: 100%;
+
+    .content-container {
+        @include mainContainer;
+        padding: 20px;
+    }
+}

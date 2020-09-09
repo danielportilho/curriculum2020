@@ -1,0 +1,18 @@
+
+@import '../../../assets/styles/variables.scss';
+
+.navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: #f5f5f5;
+    border-bottom: #eeeeee 1px solid;
+
+    .navbar-wrapper {
+        @include mainContainer;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }
+}

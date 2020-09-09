@@ -1,0 +1,13 @@
+
+@import '../../../assets/styles/variables.scss';
+
+.footer {
+    background: #ca51a1;
+
+    .footer-wrapper {
+        @include mainContainer;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }
+}
